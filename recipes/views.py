@@ -12,7 +12,10 @@ def contato(request):
 def sobre(request):
     return render(request,'recipes/sobre.html')
 
+def info(request):
+    return render(request,'recipes/info.html')
 
-
+def detalhe(request):
+    return render(request,'recipes/detalhe.html')
 
 # Create your views here.
