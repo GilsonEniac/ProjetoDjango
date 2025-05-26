@@ -4,13 +4,13 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('HOME 03')
-
+    return render(request,'global/Home.html')
+    
 def sobre(request):
-    return HttpResponse('SOBRE')
+    return HttpResponse('SOBRE 03')
 
 def contato(request):
-    return HttpResponse('CONTATO')
+    return HttpResponse('CONTATO 03')
 
 
 
