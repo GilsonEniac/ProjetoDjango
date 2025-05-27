@@ -4,10 +4,10 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request,'recipes/Home.html')
+    return render(request,'recipes/Home.html',context={'name': 'Gilson Gomes','nome':'Cassia Volpati'})
     
 def contato(request):
-    return render(request,'recipes/contato.html')
+    return render(request,'temp/temp.html')
 
 def sobre(request):
     return render(request,'recipes/sobre.html')
